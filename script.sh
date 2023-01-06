@@ -29,8 +29,8 @@ then
       echo "$file copied"
       fi
     done
-    cd /"$destination"
-    ls /"$destination"
+    cd ./"$destination"
+    ls *
 else 
   echo "Please come back when you are ready"
 fi
